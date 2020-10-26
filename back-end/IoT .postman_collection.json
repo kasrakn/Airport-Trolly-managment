@@ -1,0 +1,273 @@
+{
+	"info": {
+		"_postman_id": "2f624a06-8bbb-4b40-b48a-760297f6f118",
+		"name": "IoT ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "kasra2",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "kasra2@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "phone_number",
+							"value": "123456789",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "hello2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{host}}/register/user/?username&email&phone_number&password&user_type",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"register",
+						"user",
+						""
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": null
+						},
+						{
+							"key": "email",
+							"value": null
+						},
+						{
+							"key": "phone_number",
+							"value": null
+						},
+						{
+							"key": "password",
+							"value": null
+						},
+						{
+							"key": "user_type",
+							"value": null
+						}
+					]
+				},
+				"description": "register new user"
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "user_type",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{host}}/login/",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"login",
+						""
+					]
+				},
+				"description": "login user into account"
+			},
+			"response": []
+		},
+		{
+			"name": "occupy a trolly by a user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/trolly/occupy/?username&trolly_id",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"trolly",
+						"occupy",
+						""
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": null
+						},
+						{
+							"key": "trolly_id",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get trolly info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/trolly/info/?id",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"trolly",
+						"info",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "free a trolly",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/trolly/free/?trolly_id",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"trolly",
+						"free",
+						""
+					],
+					"query": [
+						{
+							"key": "trolly_id",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register new trolly",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/register/trolly/?x&y&isOccupied&last_update",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"register",
+						"trolly",
+						""
+					],
+					"query": [
+						{
+							"key": "x",
+							"value": null
+						},
+						{
+							"key": "y",
+							"value": null
+						},
+						{
+							"key": "isOccupied",
+							"value": null
+						},
+						{
+							"key": "last_update",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add trolly by node id",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/trolly/add/?id&x&y&isOccupied&last_update",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"trolly",
+						"add",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": null
+						},
+						{
+							"key": "x",
+							"value": null
+						},
+						{
+							"key": "y",
+							"value": null
+						},
+						{
+							"key": "isOccupied",
+							"value": null
+						},
+						{
+							"key": "last_update",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
