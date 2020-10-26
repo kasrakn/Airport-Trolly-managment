@@ -1,0 +1,3 @@
+[submodule "iot_flutter_app"]
+	path = iot_flutter_app
+	url = https://github.com/AshTheFallen/iot_flutter_app.git
