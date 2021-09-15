@@ -22,7 +22,7 @@ TMS is a mobile application for managing and tracking the airport's trollies, wh
 <br>
 <br>
 
-## Contributers
+## Contributors
 * [Afshin Shahrestani](https://github.com/AshTheFallen)
 * [Ali Goldani](https://github.com/Galiold)
 * [Mohammad Kahani](https://github.com/mhmdka)
