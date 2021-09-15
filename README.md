@@ -14,8 +14,16 @@ TMS is a mobile application for managing and tracking the airport's trollies, wh
 <br>
 <br>
 
-## The monbile application 
+## The mobile application 
 <div style="display: flex; ">
 <img src="./images/app1.png" style="width: 300px; margin-right: 20px"></img>
 <img src="./images/app2.png" style="width: 300px;"></img>
 </div>
+<br>
+<br>
+
+## Contributers
+* [Afshin Shahrestani](https://github.com/AshTheFallen)
+* [Ali Goldani](https://github.com/Galiold)
+* [Mohammad Kahani](https://github.com/mhmdka)
+* [Sina Remezani](https://github.com/sinar77)
