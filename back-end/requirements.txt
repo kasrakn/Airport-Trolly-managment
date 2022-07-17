@@ -1,6 +1,6 @@
 asgiref==3.2.10
 bson==0.5.10
-Django==3.0.8
+Django==3.1.14
 geog==0.0.2
 
 paho-mqtt==1.5.0
